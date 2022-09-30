@@ -1,0 +1,128 @@
+.top-nav-padding {
+    padding: 2rem;
+    
+}
+.top-nav.overlap {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.hdr {
+    --hdr-lg-mx-wd: 398;
+    --hdr-lg-mx-wd-mbl: 170; 
+    --hdr-lg-mx-wd-clc: calc((var(--hdr-lg-mx-wd-mbl) * 1px) + (var(--hdr-lg-mx-wd) - var(--hdr-lg-mx-wd-mbl)) * ((100vw - 320px) / (1920 - 320))); 
+    overflow: hidden;
+}
+
+.hdr .tp-lg {
+    max-width: var(--hdr-lg-mx-wd-clc);
+    flex: 0 0 auto;
+    
+} 
+
+.logo {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+@media screen and (min-width: 1281px) {
+  .mbl-btn, .hdr li.cls-btn {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width:1600px) {
+    
+}
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width:1280px) {
+    .hdr .nv {
+        opacity: 0;
+        transform: translateX(100%);
+        transition: opacity 0.35s ease 0s, transform  0.35s ease 0s;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        z-index: 10;
+        background-color: var(--primary);
+        padding: 2rem 3rem;
+        box-shadow: -3px 0px 20px 2px #4c4c4c;
+        display: block;; 
+    }
+    .hdr .nv.cst {
+        background-color: black;
+    }
+    .hdr.open-menu .nv {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    
+    .hdr .nv li:not(.cls-btn) {
+        padding: 1rem 0rem;
+        border-bottom: solid 1px black; 
+    }
+    .hdr .nv li.bdr:not(.cls-btn) {
+        border-bottom: solid 1px var(--accent); 
+    }
+    .hdr li.cls-btn {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        margin: 0;
+        cursor: pointer;
+        color: black;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .hdr .cst li.cls-btn {
+        color: var(--accent);
+    }
+    .hdr .cls-btn svg {
+        font-size: 1.1rem;
+        
+    }
+    .sp-bg-1024 {
+        color: var(--text);
+        width: 100%;
+    }
+    .hdr .mbl-btn {
+        padding: 1rem;
+        background-color: var(--secondary);
+        color: var(--text);
+        cursor: pointer;
+    }
+   
+    .hdr .mbl-btn svg {
+        display: block;
+        font-size: 1.8rem;
+
+    }
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:800px) {
+    .hdr .nv {
+        width: 60%;
+    }
+}
+@media screen and (max-width:540px) {
+    .logo {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+    }
+    .hdr .nv {
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+
+}

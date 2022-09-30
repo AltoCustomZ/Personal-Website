@@ -1,0 +1,10 @@
+[data-animate] {
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: opacity 0.35s ease 0s, transform 1.5s ease 0s;
+}
+
+[data-animate].animate {
+    opacity: 1;
+    transform: translateY(0%);
+}

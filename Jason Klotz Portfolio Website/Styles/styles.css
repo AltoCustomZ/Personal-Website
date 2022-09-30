@@ -1,0 +1,348 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+    border: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+    font-size: 100%;
+}
+form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+img {
+	border: none;
+	-ms-interpolation-mode: bicubic;
+	max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 2em 0em;
+}
+ [class*="flex"] {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ [class*="flex-right"] {
+    display: flex;
+    align-items: right;
+    justify-content: end;
+}
+ [class*="flex-center"] {
+     justify-content: center;
+     text-align: center;
+ }
+ [class*="flex-even"] {
+    justify-content: space-evenly;
+    text-align: center;
+}
+[class*="flex-even-lft"] {
+    justify-content: space-evenly;
+    text-align: left;
+}
+ [class*="flex-top"] {
+    align-items: flex-start;
+}
+ [class*="wrap"] {
+    flex-wrap: wrap;
+}
+[class*="stretch"] {
+    align-items: stretch;
+    align-content: space-around;
+ }
+ [class*="dir-row"] {
+    flex-direction: row;
+ }
+ .flex-web-dev {
+    display: flex;
+    align-items: flex-start;
+ }
+ .start {
+     justify-content: flex-start;
+ }
+ .flex.items-auto > li {
+     flex: 1 1 auto;
+ }
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+.ovr-flw {
+    overflow: hidden;
+}
+ .text-center {
+     text-align: center;
+ }
+ .block {
+     display: block;
+ }
+.justify {
+    justify-content: center;
+}
+.r-justify {
+    justify-content: right;
+}
+ .margin-bottom {
+     margin-bottom: 2rem;
+ }
+ .margin-top {
+    margin-top: 2rem;
+}
+ .grid-padding {
+    padding: 2rem;
+ }
+ .sml-v-padding {
+     padding: 0em 0em 1.5em 0em;
+ }
+.sml-top-padding {
+    padding-top: 1rem;
+}
+.sml-h-padding {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+ .relative {
+     position: relative;
+ }
+
+.top-padding {
+    padding-top: 2.5em;
+}
+.btn {
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 2em 3em;
+    color: var(--text);
+    background-color: var(--buttons);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.scale {
+    display: block;
+    position: relative;
+}
+.scale-item {
+    transition: transform 0.35s ease 0s;
+}
+.shift-item {
+    transition: transform 0.35s ease 0s;
+    display: block;
+}
+.no-pad {
+    padding: 0 !important;
+}
+.main-padding {
+    padding-left: 3em;
+    padding-right: 3em;
+    
+}
+section.main-padding img.content-1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.lrg-img {
+    max-width: 1400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.crop-img {
+    position: relative;
+}
+.crop-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.crop-img::after {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+}
+.bdr-rds {
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.bx-sdw {
+    box-shadow: 5px 5px 13px 0px rgb(0 0 0 / 20%);
+}
+.v-padding {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.h-padding {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.thrd-bxs {
+    object-fit: cover;
+    height: 35em;
+    width: 35em;
+}
+.folio-pics {
+    height: 50em;
+    width: 50em;
+    object-fit:contain;
+}
+.ovrlap {
+    position: relative;
+    top: -6rem;
+}
+
+.h-padding-2 {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+.v-padding-2 {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+.lrg-h-padding {
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.lrg-v-padding {
+    padding-top: 9em;
+    padding-bottom: 9em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.abt-me-mrg {
+    margin-left: 15em;
+    margin-right: 15em;
+}
+svg {
+    height: 1em;
+    width: 1em;
+    fill: currentcolor;
+}
+@media screen and (max-width:1600px) {
+    
+}
+@media screen and (max-width:1440px) {
+    div.border.lrg-h-padding {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+@media screen and (max-width:1280px) {
+    .lrg-h-padding {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+@media screen and (max-width:1024px) {
+    .abt-me-mrg {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+    .block-1024 {
+        display: block;
+    }
+    .lrg-h-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .flex-center-1024 {
+        justify-content: center;
+        text-align: center;
+    }
+    .top-padding-1024 {
+        padding-top: 4em;
+    }
+}
+@media screen and (max-width:800px) {
+    .abt-me-mrg {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+    }
+}
+@media screen and (max-width:540px) {
+    .main-padding {
+        padding-left: 1em;
+        padding-right: 1em;
+        
+    }
+    .h-padding {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .abt-me-mrg {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .hide-540 {
+        display: none;
+    }
+    .block-540 {
+        display: block;
+    }
+    .pad-bot-540 {
+        padding-bottom: 2em;
+    }
+    .just-cntr-540 {
+        justify-content: center;
+    }
+    .lrg-h-padding {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .lrg-v-padding {
+        padding-top: 14em;
+        padding-bottom: 2em;
+    }
+    div .h-padding.skills {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    div.h-padding.skills {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    div.border.lrg-h-padding {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+@media screen and (max-width:420px) {
+    .grid-padding {
+        padding: 2em 0em;
+    }
+    .top-padding-1024 {
+        padding-top: 0em;
+    }
+    .v-padding-2 {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    section {
+        padding: 1em 0em;
+    }
+}
+@media screen and (max-width:375px) {
+    div.skills .thrd-bxs {
+            object-fit: cover;
+            height: 38em;
+            width: 35em;
+    }
+}

@@ -1,0 +1,54 @@
+:root {
+    --primary: #c58981;
+    --secondary:#917990; 
+    --accent:#696e96;
+    --link:#68668b;
+    --text: #000000;
+    --text-dark: #9d91ac;
+    --inner-bg: #000000;
+    --main-bg: #ffffff;
+    --text-purp: #5967b0;
+
+   
+
+    --black: #000000;
+    --white: #ffffff;
+}
+
+
+.main-bg {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+.light-bg {
+    background-color: var(--accent);
+    color: var(--white);
+}
+
+.alt-bg {
+    background-color: var(--main-bg);
+    color: var(--text);
+}
+
+.alt-bg-2 {
+    color: #f1a79d;
+    background-color: var(--accent);
+
+}
+
+.link-blk {
+    color:#000000;
+}
+.white-text {
+    color: #ffffff;
+}
+.purp-text {
+    color: #9a91ac;
+}
+.text-dark-p {
+    color: #655a7a;
+}
+.orange-text {
+    color: #f1a79d;
+}

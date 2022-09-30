@@ -1,0 +1,52 @@
+.footer ul li + li {
+    margin-left: 2rem;    
+}
+
+.footer {
+    padding: 2em;
+}
+
+.footer .social {
+    text-align: center;
+    color: var(--white);
+}
+.footer .social a {
+    color: inherit;
+    text-align: center;
+    margin: 0 .44em;
+    opacity: 0.75;
+}
+.footer .social a:hover {
+    opacity: 0.9;
+}
+.border-top {
+    border-top: solid 2px #f1a79d;
+}
+.border-bottom {
+    border-bottom: solid 2px #f1a79d;
+}
+@media screen and (max-width:1600px) {
+    
+}
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width:1280px) {
+
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:800px) {
+
+}
+
+@media screen and (max-width:540px) {
+    .footer {
+        padding: 1em;
+    }
+    
+}
+@media screen and (max-width:500px) {
+
+}

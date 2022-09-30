@@ -1,0 +1,96 @@
+:root {
+    --title-font: 'Permanent Marker', cursive;
+    --main-font: 'Comfortaa', cursive;
+
+    --title-1-s: 3.33rem;
+    --title-2-s: 2.22rem;
+    --title-3-s: 1.667rem;
+    --title-4-s: 1.25rem;
+    --content-n: 0.889rem;
+    --content-s: 0.722rem;
+}
+
+h1, h2, h3, h4, h5, h6, .title-font, .btn {
+    font-family: var(--title-font);   
+}
+body {
+    font-family: var(--main-font);
+    font-size: var(--content-n);
+}
+h1, .title-1 {
+    font-size: var(--title-1-s);
+    font-family: var(--title-font);
+    line-height: 1;
+}
+h2, .title-2 {
+   font-size: var(--title-2-s);
+   font-family: var(--title-font);
+}
+h4, .title-3 {
+    font-size: var(--title-4-s);
+    font-family: var(--sec-title-font);
+}
+.title-4 {
+    font-size: var(--title-4-s);
+    font-family: var(--sec-title-font);
+}
+.title-5 {
+    font-size: var(--title-2-s);
+    font-family: var(--sec-title-font);
+}
+.links {
+    font-family: var(--title-font);
+    font-size: var(--title-4-s);
+}
+p {
+    font-size: 18px;
+    font-family: var(--main-font);
+}
+
+.content-style {
+    line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.ln-ht {
+    line-height: 1.5;
+}
+.fnt-social {
+    font-size: 2rem;
+}
+@media screen and (max-width:1600px) {
+    
+}
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width:1280px) {
+
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:800px) {
+
+}
+@media screen and (max-width:834px) {
+   
+}
+@media screen and (max-width:540px) {
+    h2 {
+        font-size: 2.2rem;
+    }
+    .links {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:420px) {
+    h2.text-center {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,71 @@
+.main-width {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.thin-width {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.fourth {
+    width: 25%;
+}
+.three-fourths{
+    width: 75%;
+}
+.third {
+    width: 33%;
+} 
+.two-thirds {
+    width: 66%;
+}
+.half {
+    width: 50%;
+}
+.sml-half {
+    width: 45%;  
+}
+.sml-half-2 {
+    width: 48%;  
+}
+.full {
+    width: 100%;
+}
+.fifth {
+    width: 20%;
+}
+.three-fifths {
+    width: 60%
+}
+.two-fifths {
+    width: 40%
+}
+.txt-bx {
+    width: 30em;
+}
+
+@media screen and (max-width:1600px) {
+    
+}
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width:1280px) {
+
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:800px) {
+
+}
+@media screen and (max-width:540px) {
+
+    
+}
+@media screen and (max-width:420px) {
+    .txt-bx {
+        width: 25em;
+    }
+}
